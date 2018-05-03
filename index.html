@@ -45,14 +45,11 @@
 		loader.load("./scene.json", function ( obj ) {
 			console.log(obj);
 		 	scene = obj;
-		 	// scene.background = clearColor;
+		 	scene.background = new THREE.Color(1, 1, 1);
 			animate();
-			
+			var gi = new GI(scene, renderer);
 		} );
 
-		function compute(){
-			var gi = new GI(scene, renderer);
-		}
 
 		function animate() {
 			requestAnimationFrame( animate );

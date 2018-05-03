@@ -327,21 +327,12 @@
 				"material": "8AA4885A-F1EF-455A-B952-B8F929620AB3"
 			},
 			{
-				"uuid": "20186F4A-4762-48AA-B1D2-FFB7C8AB6232",
-				"type": "HemisphereLight",
-				"name": "HemisphereLight",
-				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,10,0,1],
-				"color": 16777215,
-				"intensity": 1,
-				"groundColor": 5656399
-			},
-			{
 				"uuid": "42650CC8-D93B-4EC1-9B43-5E28352D0C89",
 				"type": "PointLight",
 				"name": "PointLight",
 				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.95,0.95,1],
 				"color": 16777215,
-				"intensity": 0.5,
+				"intensity": 1,
 				"distance": 0,
 				"decay": 1,
 				"shadow": {

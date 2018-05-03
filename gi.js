@@ -20,6 +20,8 @@ var GI = function(scene , renderer){
 	var meshIndex = 0 ;
 	var currentVertex = 0;
 
+	var clone = new THREE.Scene();
+
 	var i;
 	var l = scene.children.length;
 
